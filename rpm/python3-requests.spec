@@ -8,12 +8,15 @@ BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
 Requires:   python3-certifi >= 2017.4.17
-Requires:   python3-chardet >= 3.0.2, python3-chardet < 4
-Requires:   python3-idna >= 2.5, python3-idna < 3
-Requires:   python3-urllib3 >= 1.21.1, python3-urllib3 < 1.26
-Conflicts:  python3-urllib3 == 1.25.0, python3-urllib3 == 1.25.1
+Requires:   python3-chardet >= 3.0.2
+Requires:   python3-idna >= 2.5
+Requires:   python3-urllib3 >= 1.25.2
 BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
+BuildRequires:  python3-chardet
+BuildRequires:  python3-idna
+BuildRequires:  python3-pygments
+BuildRequires:  python3-urllib3
 
 %description
 Requests allows you to send HTTP/1.1 requests extremely easily. There’s no need to manually add query strings to your URLs, or to form-encode your PUT & POST data — but nowadays, just use the json method!
