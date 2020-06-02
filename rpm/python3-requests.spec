@@ -33,5 +33,5 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{python3_sitearch}/requests
-%{python3_sitearch}/requests-*.egg-info
+%{python3_sitelib}/requests
+%{python3_sitelib}/requests-*.egg-info
