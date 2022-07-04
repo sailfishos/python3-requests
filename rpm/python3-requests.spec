@@ -3,7 +3,7 @@ Summary:    Requests is an elegant and simple HTTP library for Python
 Version:    2.23.0
 Release:    1
 License:    ASL 2.0
-URL:        https://pypi.org/project/requests/
+URL:        https://github.com/sailfishos/python3-requests
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Requires:   python3-base
