@@ -1,6 +1,6 @@
 Name:       python3-requests
 Summary:    Requests is an elegant and simple HTTP library for Python
-Version:    2.23.0
+Version:    2.31.0
 Release:    1
 License:    ASL 2.0
 URL:        https://github.com/sailfishos/python3-requests
